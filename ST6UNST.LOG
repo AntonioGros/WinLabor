@@ -1,0 +1,166 @@
+ %% NO MODIFIQUE NI ELIMINE ESTE ARCHIVO. %% 
+ %% Este archivo contiene información acerca de la instalación de una aplicación. %% 
+ %% Se utilizará para quitar automáticamente de su PC todos los componentes de la aplicación, si elige hacerlo. %% 
+
+
+NOTE: Inicio de la sección bootstrapper
+
+CONFIG: Title: "WinLabor"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "C:\WINDOWS\system32\VB6STKIT.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\COMCAT.DLL"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\VB6ES.DLL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\stdole2.tlb"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\asycfilt.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\olepro32.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\oleaut32.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\msvbvm60.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+
+ACTION: TLBRegister: "C:\WINDOWS\SYSTEM32\stdole2.tlb"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\olepro32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\oleaut32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\msvbvm60.dll"
+
+NOTE: Final de la sección bootstrapper
+
+NOTE: Inicializando el programa principal de instalación 'Setup1.exe'....
+
+ACTION: CreateDir: "d:\CIENCIAS\FISICA\WinLabor"
+
+ACTION: CreateDir: "C:\Documents and Settings\Antonio\Menú Inicio\Programas\WinLabor"
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\WinLabor.ini"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\STUD.tbl"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\STUD005.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\STUD01.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\STUD001.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\KOL.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\KOL005.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\KOL02.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\KOL002.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\KOL01.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\KOL001.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\GAUSS.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\CHI005.tbl"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\CHI2.TBL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\CHI01.tbl"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\CHI001.tbl"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\hh.exe"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\itircl.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\itss.dll"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+*** ERROR: C:\WINDOWS\system32\hhctrl.ocx
+*** ERROR: El archivo de destino está en uso. Asegúrese de que todas las demás aplicaciones están cerradas.
+*** ERROR: (El usuario respondió con 'Pasar por alto')
+*** DURANTE ESTA ACCIÓN: SharedFile: "C:\WINDOWS\system32\hhctrl.ocx"
+
+*** ERROR: C:\WINDOWS\system32\hhctrl.ocx
+*** ERROR: El archivo de destino está en uso. Asegúrese de que todas las demás aplicaciones están cerradas.
+*** ERROR: Si pasa por alto un error de copia, el archivo no se copiará. Puede que la aplicación no funcione correctamente. ¿Desea pasar por alto el error?
+*** ERROR: (El usuario respondió con 'Sí')
+*** DURANTE ESTA ACCIÓN: SharedFile: "C:\WINDOWS\system32\hhctrl.ocx"
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\winlabor.chm"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSCMCES.DLL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSCOMCTL.OCX"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\CMDLGES.DLL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\COMDLG32.OCX"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\DBRPRES.DLL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSSTDFMT.DLL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSDBRPTR.DLL"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "d:\CIENCIAS\FISICA\WinLabor\WinLabor.exe"
+(No se puede encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\itircl.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\itss.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSCOMCTL.OCX"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\COMDLG32.OCX"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSSTDFMT.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSDBRPTR.DLL"
+
+ACTION: ShellLink: "WinLabor", "WinLabor"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\WinLabor.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WinLabor.exe", ""
+
